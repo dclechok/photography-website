@@ -6,11 +6,6 @@ main{
     margin: 3% 18% 10% 18%;
 }
 
-.container{
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .border{
     border-style: solid;
     border-color: red;
