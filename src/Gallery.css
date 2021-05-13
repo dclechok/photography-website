@@ -1,0 +1,18 @@
+main{
+    display: flex;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 3% 18% 10% 18%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.border{
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+}
