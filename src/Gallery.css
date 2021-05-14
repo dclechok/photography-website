@@ -1,13 +1,26 @@
 main{
     display: flex;
+    flex-wrap: wrap;
     background-color: black;
     color: white;
     text-align: center;
-    margin: 3% 18% 10% 18%;
+    margin: 3% 14% 10% 14%;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
 }
 
-.border{
+main img{
+    width: 100%;
+    padding: 3px;
+}
+
+.rmvPad{
+    padding: 0;
+}
+/* .border{
     border-style: solid;
     border-color: red;
     border-width: 2px;
-}
+} */
