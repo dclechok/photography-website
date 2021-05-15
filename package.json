@@ -1,5 +1,6 @@
 {
   "name": "dclechok-photography-website",
+  "homepage": "http://www.dclechokphoto.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
