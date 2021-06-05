@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import Nav from "./Nav";
 import About from "./About";
@@ -15,12 +15,11 @@ function App() {
         <Nav />
         <main>
           <Switch>
-            <Route path="/" />
+            <Route exact path="/" />
             <Route path="/about" component={About} />
             <Route path="/gallery" component={Gallery} />
             <Route path="/contact" component={Contact} />
           </Switch>
-          <Gallery />
         </main>
       </Router>
     </React.Fragment>
