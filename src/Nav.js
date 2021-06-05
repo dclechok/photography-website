@@ -1,13 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Nav.css";
+import { Link } from 'react-router-dom';
 
 function Nav() {
 
-  const [selection, setSelection] = useState('about');
-
   return (
     <React.Fragment>
-        <nav>about | gallery | contact</nav>
+        <nav><Link to="/about">about</Link> | <Link to="/gallery">gallery</Link> | <Link to="/contact">contact</Link></nav>
         <hr />
     </React.Fragment>
   );

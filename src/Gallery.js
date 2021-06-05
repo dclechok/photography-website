@@ -11,12 +11,10 @@ import imageSeven from './images/img_7.jpg';
 import imageEight from './images/img_8.jpg';
 import imageNine from './images/img_9.jpg';
 
-
-
 function Gallery() {
     return (
-        <main>
-            <div className="d-flex justify-content-around">
+        <React.Fragment>
+            <div className="d-flex justify-content-around contentDiv">
                 <div className="row">
                     <div className="col-4 rmvPad">
                         <img src={imageOne} alt="beach" />
@@ -47,8 +45,7 @@ function Gallery() {
                     </div>
                 </div>
             </div>
-
-        </main>
+        </React.Fragment>
     );
 }
 

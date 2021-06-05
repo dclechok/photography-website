@@ -1,0 +1,23 @@
+main{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 2% 14% 10% 14%;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 110px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 15px;
+    margin-top: 2%;
+    margin-bottom: 0;
+  }
+  
+  h2{
+    font-size: 34px;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    letter-spacing: 8px;
+  }
