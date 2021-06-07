@@ -1,23 +1,28 @@
-main{
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: 2% 14% 10% 14%;
-    overflow: hidden;
+main {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 2% 14% 10% 14%;
+  overflow: hidden;
+  text-align: center;
+  font-family: "EB Garamond", Verdana, Geneva, Tahoma, sans-serif; 
+  /* background-image: url('./images/bg/bg5.jpg'); */
+  background-size: 100%;
 }
 
-h1{
-    font-size: 110px;
-    text-align: center;
-    font-family: 'EB Garamond', serif;
-    letter-spacing: 15px;
-    margin-top: 2%;
-    margin-bottom: 0;
-  }
-  
-  h2{
-    font-size: 34px;
-    font-family: 'Tangerine', cursive;
-    text-align: center;
-    letter-spacing: 8px;
-  }
+h1 {
+  font-size: 110px;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  letter-spacing: 15px;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 28px;
+  font-family: "Tangerine", cursive;
+  text-align: center;
+  letter-spacing: 8px;
+} 
+
