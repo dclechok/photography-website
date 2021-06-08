@@ -4,10 +4,21 @@ import './Gallery.css';
 function Gallery() {
   return (
     <React.Fragment>
-      <h3>Gallery</h3>
-      <section className="about">
+      <h3 id="galleryID">. gallery .</h3>
+      <section>
         <p>
-          Pictures will go here.
+          Hi. My name is DC Lechok. I'm a photographer from Pittsburgh, PA, and I'm devoted to capturing my client's moments to their highest
+          expectations. I specialize in:
+          <br />
+          <br />
+          <ul>
+            <li>life & landscape photography</li>
+            <li>event & product photography</li>
+            <li>corporate & real estate photograph</li>
+            <li>photo editing & retouching</li>
+            <li>photo library cloud hosting</li>
+          </ul>
+          *Tailored pricing based on your needs.
         </p>
       </section>
     </React.Fragment>
