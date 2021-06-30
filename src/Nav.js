@@ -6,7 +6,7 @@ function Nav() {
 
   return (
     <React.Fragment>
-        <nav><Link to="aboutID">about</Link> | <Link to="galleryID">gallery</Link> | <Link to="contactID">contact</Link></nav>
+        <nav><Link className="linkDec" to="aboutID">about</Link> | <Link className="linkDec" to="galleryID">gallery</Link> | <Link className="linkDec" to="contactID">contact</Link></nav>
         <hr />
     </React.Fragment>
   );

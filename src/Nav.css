@@ -20,8 +20,14 @@ a:visited{
 
 a:hover{
     color: goldenrod;
+    text-decoration: underline;
 }
 
 a:active{
     color:rgb(28, 173, 173);
+}
+
+.linkDec{
+    text-decoration: underline;
+    color: rgb(16, 46, 68);
 }
