@@ -1,6 +1,6 @@
 # DC Lechok Photography
 
-This is a photography porfolio website, designed using JS, CSS, React, and Bootstrap.
+This is a photography porfolio website, designed using JS, HTML/CSS, React, and Bootstrap.
 
 This web design is featured at: dclechokphoto.com
 
